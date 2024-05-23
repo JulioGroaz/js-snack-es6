@@ -38,4 +38,4 @@ Id  Name                Grades
 1) creare un array con all'interno le caratteristiche degli studenti.
 2) creare con map un array che trasformi i nomi da nminuscoli a maiuscoli.
 3) usare filter per creare un array di stuudenti con voto maggiore a 70.
-4) creare un array con filter che filtri tra gli studenti con voto maggiore di 70 e id maggiore di 120.
+4) creare un array con filter che filtri tra gli studenti con voto maggiore di 70 quelli con id maggiore di 120.
