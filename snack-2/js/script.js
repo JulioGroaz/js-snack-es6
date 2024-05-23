@@ -43,4 +43,7 @@ const studentiFacoltà = [
         Grades: 84,
     },
 ];
+console.log(studentiFacoltà); //debugging
 
+const nomiMaiuscoli = studentiFacoltà.map((student) => student.Name.toUpperCase());
+console.log(nomiMaiuscoli);
