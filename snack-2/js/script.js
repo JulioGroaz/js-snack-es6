@@ -47,3 +47,7 @@ console.log(studentiFacoltà); //debugging
 
 const nomiMaiuscoli = studentiFacoltà.map((student) => student.Name.toUpperCase());
 console.log(nomiMaiuscoli);
+
+const voto70 = studentiFacoltà.filter((voto) => voto.Grades > 70);
+console.log(voto70);
+
