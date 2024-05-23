@@ -18,8 +18,10 @@ const vips =[
 
 const invitoTavolo = vips.map((invitato,index) =>{
     return{
-        tableName: tableName,
+        tableName: nomeTavolo,
         guestName: invitato,
         place: index + 1
     };
 });
+
+console.log(invitoTavolo);
