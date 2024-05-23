@@ -10,6 +10,10 @@ nome dell'ospite (guestName),
 posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 
+- scomponiamo il problema:
+1) creare un array con i nomi dei partecipanti  (oggetti)
+2) utilizzando map e un ciclo for dare ad ogni invitato il nome del tavolo (Tavolo Vip) e in base alla posizione all'interno dell'Array aumentare l'index +1 mano a mano che va avanti.
+3) stampare la lista dei segnaposto. 
 
 
 SNACK 2
@@ -29,3 +33,9 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+- scomposizione del problema:
+1) creare un array con all'interno le caratteristiche degli studenti.
+2) creare con map un array che trasformi i nomi da nminuscoli a maiuscoli.
+3) usare filter per creare un array di stuudenti con voto maggiore a 70.
+4) creare un array con filter che filtri tra gli studenti con voto maggiore di 70 e id maggiore di 120.
