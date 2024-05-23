@@ -12,7 +12,7 @@ Generiamo e stampiamo in console la lista per i segnaposto.
 
 - scomponiamo il problema:
 1) creare un array con i nomi dei partecipanti  (oggetti)
-2) utilizzando map e un ciclo for dare ad ogni invitato il nome del tavolo (Tavolo Vip) e in base alla posizione all'interno dell'Array aumentare l'index +1 mano a mano che va avanti.
+2) utilizzando map dare ad ogni invitato il nome del tavolo (Tavolo Vip) e in base alla posizione all'interno dell'Array aumentare l'index +1 mano a mano che va avanti.
 3) stampare la lista dei segnaposto. 
 
 

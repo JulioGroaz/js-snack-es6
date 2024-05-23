@@ -15,3 +15,11 @@ const vips =[
     'Amadeus', 
     'Fiorello'
 ];
+
+const invitoTavolo = vips.map((invitato,index) =>{
+    return{
+        tableName: tableName,
+        guestName: invitato,
+        place: index + 1
+    };
+});
