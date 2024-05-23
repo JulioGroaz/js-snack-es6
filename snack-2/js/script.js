@@ -51,3 +51,6 @@ console.log(nomiMaiuscoli);
 const voto70 = studentiFacoltà.filter((voto) => voto.Grades > 70);
 console.log(voto70);
 
+const id120 = voto70.filter((iD) => iD.id > 120);
+console.log(id120);
+
