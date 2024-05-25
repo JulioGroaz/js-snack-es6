@@ -17,4 +17,4 @@ bici.forEach(bicicletta => {
 });
 const { nome, peso } = biciLeggera;
 
-console.log(nome, peso);
+console.log('La bicicletta più leggera è:',nome, ',peso (kg): ',peso);
