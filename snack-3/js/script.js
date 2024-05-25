@@ -7,3 +7,14 @@ const bici = [
 
 ];
 
+// Bici con peso minore
+
+let biciLeggera = bici[0];
+bici.forEach(bicicletta => {
+    if (bicicletta.peso < biciLeggera.peso) {
+        biciLeggera = bicicletta;
+    }
+});
+const { nome, peso } = biciLeggera;
+
+console.log(nome, peso);
