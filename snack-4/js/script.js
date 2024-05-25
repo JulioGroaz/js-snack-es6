@@ -16,7 +16,14 @@ const squadre =[
 
 // Impostazione di valori random per punti fatti e falli subiti
 squadre.forEach(team => {
-    team.puntiFatti = getRandomInt(0, 100);
-    team.falliSubiti = getRandomInt(0, 100);
+    team.puntiFatti = numeriRandom(0, 100);
+    team.falliSubiti = numeriRandom(0, 100);
 });
+
+//estrappolo con map dall'array di squadre le caratteristiche nome e falli Subiti da oogni oggetto => creo partendo dall'estrapolazione un nuovo oggetto con le sole caratteristiche di nome e falliSubiti. 
+const teamFalli = squadre.map(({nome, falliSubiti}) => ({nome, falliSubiti}));
+
+//stampo i risultati 
+console.log('tutte le squadre: ',squadre);
+console.log('nomi delle squadre e falli subiti: ', teamFalli);
 
