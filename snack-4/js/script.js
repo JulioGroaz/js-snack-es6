@@ -14,3 +14,9 @@ const squadre =[
     { nome: 'Roma', puntiFatti: 0, falliSubiti: 0 }
 ];
 
+// Impostazione di valori random per punti fatti e falli subiti
+squadre.forEach(team => {
+    team.puntiFatti = getRandomInt(0, 100);
+    team.falliSubiti = getRandomInt(0, 100);
+});
+
